@@ -1,0 +1,9 @@
+{
+  "name": "sentinelgraph-root",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "start": "python3 run_demo.py"
+  }
+}

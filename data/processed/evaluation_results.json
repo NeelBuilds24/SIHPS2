@@ -1,0 +1,94 @@
+{
+  "classifier": {
+    "model_type": "xgboost",
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "avg_confidence": 0.998,
+    "confusion_matrix": [
+      [
+        206,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        49,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        35,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        35,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        33,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        44,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        48
+      ]
+    ],
+    "classes": [
+      "BENIGN",
+      "C2_BEACON",
+      "DGA",
+      "DNS_TUNNEL",
+      "SLOWLORIS",
+      "SYN_FLOOD",
+      "UDP_FLOOD"
+    ]
+  },
+  "anomaly_detector": {
+    "mean_anomaly_score": 0.4971,
+    "anomaly_detection_rate": 1.0,
+    "flagged_anomaly_count": 262
+  },
+  "forecaster": {
+    "top1_accuracy": 0.2986,
+    "top3_accuracy": 0.2986,
+    "total_evaluated_sequences": 211
+  }
+}
